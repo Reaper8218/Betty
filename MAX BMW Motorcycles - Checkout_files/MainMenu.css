@@ -1,0 +1,42 @@
+﻿#MainMenuTable
+{
+    width: 970px;
+    background-color: #fff;
+    -moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; 
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+}
+td.MainMenu
+{
+    border-bottom: 3px solid #fff;
+    font-size: 13px;
+    font-weight: bold;
+} 
+td.MainMenuSelected
+{
+    border-bottom: 3px solid #eb3f3c;
+    font-size: 13px;
+    font-weight: bold;
+}
+td.MainMenu A
+{
+    text-decoration: none;
+    color: #333;
+}
+td.MainMenu A:hover
+{
+    color: #eb3f3c;
+}
+td.MainMenuSelected A
+{
+    text-decoration: none;
+    color: #333;
+}

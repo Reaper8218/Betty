@@ -1,0 +1,68 @@
+﻿span.RequiredField 
+{
+    color: #f33;
+    font-size: 12px;
+    padding-left: 3px;
+    cursor: help;
+}
+input 
+{
+    border: 1px solid #333;
+    background-color: #efefef;
+    font-family: Verdana;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+select 
+{
+    border: 1px solid #333;
+    background-color: #efefef;
+    font-family: Verdana;
+    font-size: 12px;
+}
+input.Summary
+{
+    text-align: right;
+    width: 68px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+}  
+textarea 
+{
+    border: 1px solid #333;
+    background-color: #efefef;
+    font-family: Verdana;
+    font-size: 12px;
+}   
+span.textareaCounter
+{
+    font-size: 11px;
+    font-color: #333;
+    font-weight: normal;
+}   
+td.Heading
+{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ddd;
+    padding: 2px;
+}
+td.Content 
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}        
+table.centered
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    width: 780px;
+}
